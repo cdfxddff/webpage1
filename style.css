@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgba(155, 166, 175,0.2);
+}
+main{
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 70%;
+    background-color: black;
+}
+#topti{
+    height: 100%;
+    background-color: rgb(163, 204, 86);
+}
+.ju{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+.base{
+    width: 90%;
+    min-height: 100vh;
+    margin: 30px auto 0;
+}
+.container{
+    display: flex;
+    padding-right: 10%;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.index {
+    margin-top: 100px;
+    flex: 1;
+}
+#nav{
+    position: fixed;
+    top:15vh;
+    right: 30vh;
+    
+}
+.content {
+    margin-right: 20px;
+    flex: 3;
+}
+.sub{
+    margin: 30px;
+    min-height: 100vh;
+
+}
