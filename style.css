@@ -1,7 +1,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: rgba(155, 166, 175,0.2);
+    background-color: rgba(206, 246, 202, 0.877);
 }
 main{
     margin: 0;
@@ -37,10 +37,12 @@ header {
     flex: 1;
 }
 #nav{
-    position: fixed;
+    position: sticky;
     top:15vh;
-    right: 30vh;
-    
+    right: 20vh;
+    width: 400px;
+    height: 400px;
+    overflow-y: scroll;
 }
 .content {
     margin-right: 20px;
@@ -51,3 +53,11 @@ header {
     min-height: 100vh;
 
 }
+
+@media screen and (max-width: 480px) {
+    .index{
+        display:none;
+    }
+}
+
+
